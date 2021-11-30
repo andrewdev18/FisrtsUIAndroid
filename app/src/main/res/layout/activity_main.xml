@@ -7,18 +7,18 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/lblTitle"
+        android:id="@+id/lblTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenido"
+        android:text="Practica 1 - UI Android Studio"
         android:textSize="24sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:id="@+id/lblName"
+        android:id="@+id/lblSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre:"
@@ -43,8 +43,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="btEnviar"
         android:text="INGRESAR"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="146dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="146dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

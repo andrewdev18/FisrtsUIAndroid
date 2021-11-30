@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void btEnviar(View view){
         //Creamos el Intent
-        Intent intent = new Intent(actMain.this, actBienvenida.class);
-        EditText txtNombre = (EditText)findViewById(R.id.txtNombre);
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        EditText txtNombre = (EditText)findViewById(R.id.txtName);
         //Creamos la información a pasar entre actividades - Pares Key-Value
         Bundle b = new Bundle();
         b.putString("NOMBRE", txtNombre.getText().toString());
